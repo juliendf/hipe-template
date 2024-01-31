@@ -1,6 +1,6 @@
-=${{ values.name }}
+# ${{ values.name }}
 
-${{ values.description }}
+# ${{ values.description }}
 
 = Deployment
 Deploying from ${{ values.containerRegistry }}:${{ values.imageName }}

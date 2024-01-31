@@ -61,6 +61,8 @@ spec:
         values:
           name: ${{ parameters.name }}
           owner: ${{ parameters.owner }}
+          containerRegistry: ${{ parameters.containerRegistry }}
+          imageName: ${{ parameters.imageName }}
 
     - id: fetch-docs
       name: Fetch Docs
