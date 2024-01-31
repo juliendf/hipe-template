@@ -1,0 +1,3 @@
+argocd:
+  appProject:
+    project: ${{ values.name }}
