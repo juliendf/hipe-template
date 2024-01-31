@@ -32,13 +32,11 @@ spec:
             catalogFilter:
               kind: Group
         containerRegistry:
-          type: array
-          items:
-            type: string
+          type: string
+          title: containerRegistry
         imageName:
-          type: array
-          items:
-            type: string
+          type: string
+          title: imageName
     - title: Choose a location
       required:
         - repoUrl
