@@ -2,5 +2,5 @@
 
 # ${{ values.description }}
 
-= Deployment
+## Deployment
 Deploying from ${{ values.containerRegistry }}:${{ values.imageName }}
