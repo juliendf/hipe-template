@@ -5,7 +5,7 @@ metadata:
   links:
   links:
     - url: https://admin.example-org.com
-      title: Admin Dashboard
+      title: ${{ values.name | dump }} Dashboard
       icon: dashboard
       type: admin-dashboard
   annotations:
