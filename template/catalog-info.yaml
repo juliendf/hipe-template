@@ -8,7 +8,7 @@ metadata:
       icon: dashboard
       type: admin-dashboard
   annotations:
-    gitlab.com/project-slug: ${{ "jdf_projects/" + values.destination.repo}}
+    gitlab.com/project-slug: ${{ "jdf_projects/" + values.name }}
     gitlab.com/instance: gitlab.com
     backstage.io/techdocs-ref: dir:.
 spec:
