@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: ${{ values.name | dump }}
   links:
-    - url: ${{ values.repoUrl | dump}}
+    - url: ${{ values.repoUrl | dump }}
       title: "Repo url"
   annotations:
     github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
@@ -11,4 +11,4 @@ metadata:
 spec:
   type: website
   lifecycle: experimental
-  owner: ${{values.owner | dump}}
+  owner: ${{values.owner | dump }}

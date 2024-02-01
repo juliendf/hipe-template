@@ -96,7 +96,7 @@ spec:
         repoContentsUrl: ${{ steps['publish'].output.repoContentsUrl }}
         catalogInfoPath: '/catalog-info.yaml'
         values:
-          repoUrl: ${{ steps['publish'].output.repoContentsUrl | dump }}
+          repoUrl: ${{ parameters.repoUrl }
 
   # some outputs which are saved along with the job for use in the frontend
   output:
