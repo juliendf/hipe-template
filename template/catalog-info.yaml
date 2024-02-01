@@ -3,8 +3,11 @@ kind: Component
 metadata:
   name: ${{ values.name | dump }}
   links:
-    - url: ${{ values.repoUrl | dump }}
-      title: "Repo url"
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
   annotations:
     github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
     backstage.io/techdocs-ref: dir:.
