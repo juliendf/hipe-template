@@ -3,7 +3,6 @@ kind: Component
 metadata:
   name: ${{ values.name | dump }}
   links:
-  links:
     - url: https://admin.example-org.com
       title: ${{ values.name | dump }} Dashboard
       icon: dashboard
